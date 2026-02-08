@@ -1,0 +1,68 @@
+.contact-info {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-topics {
+  font-size: 0.9rem;
+  color: var(--light-grey);
+  margin-bottom: 40px;
+}
+
+.search-topics span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact-title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.hours-block {
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.contact-link {
+  color: var(--grey);
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  color: var(--light-grey);
+}
+
+.bottom-section {
+  border-top: 1px solid var(--border);
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bottom-section a {
+  color: var(--text-dark);
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .bottom-section {
+        font-size: 1rem;
+    }
+}

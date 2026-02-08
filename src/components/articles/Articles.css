@@ -1,0 +1,168 @@
+
+.post {
+  width: min(800px, 92%);
+  margin: 0 auto;
+  padding: 2rem 0; 
+  overflow-wrap: break-word;
+  font-family: 'Inter', system-ui, sans-serif; 
+}
+
+.article-content {
+  margin-top: 2.5rem;
+}
+
+.article-content h2 {
+  font-size: clamp(24px, 4.5vw, 32px);
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 3rem 0 1.25rem;
+  color: #1a1a1a;
+}
+
+.article-content h3 {
+  font-size: clamp(18px, 3.5vw, 22px);
+  line-height: 1.3;
+  margin: 2rem 0 1rem;
+  color: #333;
+}
+
+
+.article-content p {
+  margin-bottom: 1.6rem;
+  line-height: 1.7; 
+  font-size: 18px; 
+  color: var(--text-dark, #2d3436);
+  max-width: 70ch;
+}
+
+.article-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.article-content li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.article-content li strong {
+  color: #000;
+}
+
+.article-content .last {
+  font-style: italic;
+  font-size: 0.90rem;
+}
+
+.thiner {
+  font-weight: 300;
+}
+
+.text-link {
+  color: var(--text-dark);
+  font-weight: 800;
+  text-decoration: none;
+}
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.tips {
+  background: #f8fbff;
+  padding: 1.2rem;
+  border-left: 4px solid #3399ff;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.tips li {
+  padding-left: .5rem;
+  margin-left: 1rem;
+}
+
+.questions, .quote {
+  font-style: italic;
+  margin: 1.5rem 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+  color: var(--grey);
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  margin: 2.5rem 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05); /* Soft shadow for depth */
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+
+.article-img, 
+.article-img-cntr {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 1.5rem auto;
+}
+
+.article-img {
+  height: 280px;
+}
+
+.article-img-cntr {
+  height: 450px;
+}
+
+.article-img-slim {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 16px 0 22px;
+}
+
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* --- STYLE SUGGESTIONS (Media Query) --- */
+@media (min-width: 768px) {
+  .post {
+    padding: 40px 0;
+  }
+  
+  .article-img {
+    height: 350px; /* Bring back controlled heights for desktop only */
+    object-fit: cover;
+  }
+
+  .article-img-cntr {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .article-img-slim {
+    width: 50%; /* Slimmer on desktop */
+  }
+}

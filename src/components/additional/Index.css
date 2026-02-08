@@ -1,0 +1,126 @@
+.music {
+  background-color: var(--bg-secondary-light);
+  color: var(--text-dark);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.music-page {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding: 56px 0 72px;
+ 
+}
+
+.header {
+  text-align: center;
+  margin: 0 auto 44px;
+  max-width: 72ch;
+}
+
+.music-page .header .title {
+  font-size: clamp(32px, 3.4vw, 48px);
+}
+
+ .music-page .header .subtitle {
+  margin: 0;
+  line-height: 1.6;
+  font-size: clamp(18px, 1.5vw, 22px);
+}
+
+.feature-list {
+  display: grid;
+  gap: 0; 
+}
+
+.feature-row {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr; 
+  grid-template-areas: "media text"; 
+  gap: 56px;                  
+  align-items: center;
+  padding: 44px 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.feature-row:last-child {
+  border-bottom: none;
+}
+
+.feature-row.reverse {
+  grid-template-columns: 1fr 1.55fr; 
+  grid-template-areas: "text media";
+}
+
+.media { 
+  grid-area: media; 
+}
+
+.feature { 
+  grid-area: text;
+}
+
+.media iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  display: block;
+  border-radius: 6px;
+}
+
+.feature-title {
+  margin: 0 0 10px;
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.feature-title a {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.feature-title:hover {
+  opacity: .7;
+}
+
+.feature-text {
+  margin: 0 0 14px;
+  line-height: 1.6;
+  max-width: 48ch;
+  opacity: 0.9;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.link {
+  color: var(--blue);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em; 
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link::after {
+  content: " \2192"; /* → */
+}
+
+@media (max-width: 900px) {
+  .feature-row,
+  .feature-row.reverse {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "media"
+      "text";
+    gap: 18px;
+    padding: 28px 0;
+  }
+
+  .feature-desc {
+    max-width: none;
+  }
+}

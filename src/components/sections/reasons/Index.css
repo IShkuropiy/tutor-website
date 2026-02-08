@@ -1,0 +1,67 @@
+.lessons {
+  background-color: var(--off-white);
+}
+
+.section-container {
+  max-width: 1400px; /* 1200px */
+  margin: 0 auto;
+  padding: 80px 20px;
+font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.section-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 60px;
+  align-items: start;
+}
+
+.section-card-grid .card {
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-card-grid .card-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--text-dark);
+}
+
+.section-card-grid .card-text {
+  max-width: 40ch;
+  line-height: 1.8;
+  color: var(--grey);
+  font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .section-card-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+  }
+}
+
+@media (max-width: 900px) {
+  .section-card-grid {
+    grid-template-columns: 1fr; /* 1 column for phones */
+  }
+
+  .card .card-title {
+    font-size: .95rem;
+  }
+
+  .card-text {
+    font-size: .8rem;
+    text-align: center;
+  }
+
+}

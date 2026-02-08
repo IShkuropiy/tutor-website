@@ -1,0 +1,119 @@
+.lib {
+  background-color: var( --off-white);
+}
+
+.section{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif; 
+}
+
+.explore-link {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: underline;
+  color: #333;
+  font-weight: bold;
+}
+
+.two-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 30px;
+}
+
+.two-card-grid .image-wrapper {
+  aspect-ratio: 16 / 9; 
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.two-card-grid .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease; 
+}
+
+.two-card-grid .card:hover img {
+  transform: scale(1.05);
+}
+
+ .two-card-grid .label {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: var(--text-grey);
+}
+
+.content-split {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 20px;
+  align-items: start;
+}
+
+.link-column {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-column .card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.desc-column p {
+  font-size: 1rem;
+  color: var(--text-grey);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.two-card-grid ul {
+  list-style-type: none
+}
+
+ .card-title {
+  text-decoration: none;
+  color: var( --text-dark);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card-title:hover {
+  opacity: .7;
+}
+
+/* Responsive: Stack cards on small screens */
+@media (max-width: 768px) {
+  .two-card-grid{
+    grid-template-columns: 1fr;
+  }
+   .content-split {
+    grid-template-columns: 1fr;
+  }
+}
+

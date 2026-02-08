@@ -1,0 +1,140 @@
+
+.hero-section {
+    padding: 80px 16px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--text-dark);
+}
+
+.blog-hero-section {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: flex-end;
+    padding: 80px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('src/assets/art1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.hero-title {
+    font-family: "Georgia", serif;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0 0 24px 0;
+    letter-spacing: -1px;
+}
+
+.blog-hero-title {
+    font-family: "Georgia", serif;
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 800;
+    margin: 0 0 20px 0;
+    color: var(--white);
+}
+
+
+.hero-subtitle,
+.blog-hero-subtitle {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.blog-hero-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.blog-link-text {
+    color: var(--text-white);
+}
+
+
+.hero-link,
+.blog-link-text {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.hero-link,
+.inner-link,
+.blog-link-text {
+    text-decoration: none;
+    font-weight: 700;
+    transition: opacity 0.2s ease;
+}
+
+.hero-link,
+.inner-link {
+    color: var(--text-dark);
+}
+
+.blog-link-text {
+    color: var(--text-white);
+}
+
+.hero-link:hover,
+.inner-link:hover {
+    opacity: 0.7;
+}
+
+.blog-link-text:hover {
+    text-decoration: underline;
+}
+
+.arrow {
+    font-size: 1.8rem;
+    margin-right: 15px;
+    transform: translateY(-2px);
+}
+
+.blog-arrow {
+    font-size: 1.8rem;
+    margin-right: 15px;
+    transform: translateY(-2px);
+    color: var(--text-white);
+}
+
+.link-text,
+.blog-link-text {
+    border-bottom: 2px solid transparent;
+}
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 20px;
+    }
+
+    .hero-title {
+        /* Scales the 4rem (64px) title down for smaller screens */
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin-bottom: 16px;
+    }
+
+    .hero-subtitle {
+        /* Ensures text remains readable and doesn't stretch too wide */
+        font-size: 1.1rem;
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .hero-link {
+        /* Makes the link easier to tap on mobile devices */
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+}
