@@ -1,6 +1,7 @@
 import "./Articles.css";
 import Header from "./header/Header";
-import FooterBtn from "../sections/footer-btn/FooterBtn";
+import marknotevalues from "../../assets/marknotevalues.png";
+import markvalueschart from "../../assets/markvalueschart.png";
 
 
 export default function Article18() {
@@ -23,9 +24,9 @@ export default function Article18() {
                 </p>
 
                 <ul>
-                    <li><strong>Height</strong>
+                    <li><strong>Height: </strong>
                         Their position on the lines tells you exactly how high or low the sound should be. When a note sits high up on the staff, it sounds bright and squeaky; when it sits low, it sounds deep and rumbly. </li>
-                    <li><strong>Value:</strong>
+                    <li><strong>Value: </strong>
                         Their shape (and those little tails!) tells you the rhythmic "value," or how long that sound should last.</li>
                 </ul>
 
@@ -55,6 +56,8 @@ export default function Article18() {
                 <p>
                     Finally, the <italic>shape</italic> of the note tells us how long to hold it. A hollow circle (Whole Note) lasts a long time, while a filled-in circle with a stick (Quarter Note) sounds like a steady walking step.
                 </p>
+
+                <img src={marknotevalues} className="article-image" />
 
             </section>
         </main>
