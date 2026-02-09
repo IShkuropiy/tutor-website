@@ -39,7 +39,7 @@ export default function Blog() {
       title: "Music Theory",
       items: [
         { id: "t1", img: art12, eyebrow: "Music Theory", title: "From Bumps to Beats: Understanding Sound and Music", href: "/blog/article16" },
-        { id: "t2", img: markdinam, eyebrow: "Music Theory", title: "Music Theory: The First Steps", href: "/blog/article18" },
+        { id: "t2", img: markdinam, eyebrow: "Music Theory", title: "How to Read Music", href: "/blog/article18" },
         { id: "t3", img: marktime, eyebrow: "Music Theory", title: "Rhythm: The Heartbeat of Music", href: "/blog/article17" },
         { id: "t4", img: art8, eyebrow: "Music Theory", title: " Musical Intervals: An Introduction", href: "/blog/article12" },
         { id: "t5", img: markaccidentals, eyebrow: "Music Theory", title: "Accidentals, the basics", href: "/blog/article2" },

@@ -7,7 +7,7 @@ export default function Article18() {
     return (
         <main className="post">
             <Header
-                title="Music Theory: The First Steps"
+                title="How to Read Music"
                 date="Feb 9, 2026"
             />
 
