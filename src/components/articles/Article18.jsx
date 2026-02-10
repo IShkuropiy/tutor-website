@@ -1,6 +1,5 @@
 import "./Articles.css";
 import Header from "./header/Header";
-import FooterBtn from "../sections/footer-btn/FooterBtn";
 
 
 export default function Article18() {

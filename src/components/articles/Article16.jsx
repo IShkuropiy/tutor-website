@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./header/Header";
 import "./Articles.css";
-import art4 from "../../assets/art4.gif";
 
 export default function Article16() {
     return (
@@ -31,7 +30,7 @@ export default function Article16() {
 
                 <p>The speed of sound depends on the material it travels through and the temperature. In physics, sound intensity is proportional to the square of the sound pressure level.</p>
 
-                <img src={art4} className="article-image" />
+                <img src="/images/art4.gif" className="article-image" />
 
                 <p>
                     In other words, sound is just energy making a "neighbor-bump" through the air.  If the bumps are fast, the pitch is high. If the bumps are big, the sound is loud. If there's no air (or anything else) to bump, there's no sound at all!

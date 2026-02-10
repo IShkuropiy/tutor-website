@@ -1,6 +1,5 @@
 import "./Articles.css";
 import Header from "./header/Header";
-import kid2 from "../../assets/kid2.png";
 
 export default function Article7() {
     return (

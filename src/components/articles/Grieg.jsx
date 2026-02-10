@@ -2,7 +2,6 @@ import React from "react";
 import Youtube from 'react-lite-youtube-embed';
 import './Articles.css'
 import Header from "./header/Header";
-import ibsen from "../../assets/ibsen.png";
 
 export default function Grieg() {
     return (
@@ -27,7 +26,7 @@ export default function Grieg() {
                 <p>Edvard Grieg composed the Peer Gynt musical suite in 1867, based on Henrik Ibsen’s drama of the same title. Originally, the score included twenty-three musical numbers, but after, he chose the best parts and turned them into two suites with nine pieces in total.</p>
                 <p><strong>Suite</strong> is a musical composition consisting of several movements or pieces, often with a common theme or key.</p>
 
-                <img src={ibsen} className="article-image" />
+                <img src="/images/ibsen.png" className="article-image" />
 
                 <p>In his play, Ibsen used elements of Norwegian folk tales but infused them with a new, modern spirit. At the center of his drama lies the rebellion of an individual against the social constraints that bind and shape human life. At the same time, Peer Gynt is a story of egoism and self-absorption—traits that ultimately lead the hero into conflict with reality. Grieg did not focus on the social problems in Norway like Ibsen did. Instead, he created a musical world filled with lyrical landscapes, fairy-tale imagery, and genre scenes.</p>
 

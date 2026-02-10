@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Index.css";
-import art5 from "/src/assets/art5.png";
-import art6 from "/src/assets/art6.jpg";
 
 export default function TwoCard() {
 
@@ -29,7 +27,7 @@ export default function TwoCard() {
           {/* Card 1 */}
           <div className="card">
             <div className="image-wrapper">
-              <img src={art6} />
+              <img src="/images/art6.jpg" />
             </div>
             <span className="label">EDUCATIONAL CHANNELS</span>
 
@@ -74,7 +72,7 @@ export default function TwoCard() {
           {/* Card 2 */}
           <div className="card">
             <div className="image-wrapper">
-              <img src={art5} />
+              <img src="/images/art5.png"/>
             </div>
             <span className="label">MUSIC THEORY</span>
             <div className="content-split">

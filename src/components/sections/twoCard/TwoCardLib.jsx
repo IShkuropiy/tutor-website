@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Index.css";
-import b1 from "/src/assets/b1.jpg";
-import art7 from "/src/assets/art7.png";
 
 export default function TwoCardLib() {
 
@@ -28,7 +26,7 @@ export default function TwoCardLib() {
         {/* Card 1 */}
         <div className="card">
           <div className="image-wrapper">
-            <img src={b1} />
+            <img src="/images/b1.jpg" />
           </div>
           <span className="label">LIBRARY</span>
 
@@ -65,7 +63,7 @@ export default function TwoCardLib() {
         {/* Card 2 */}
         <div className="card">
           <div className="image-wrapper">
-            <img src={art7} />
+            <img src="/images/art7.png"/>
           </div>
           <span className="label">PLAYGROUND</span>
           <div className="content-split">

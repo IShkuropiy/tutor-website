@@ -5,7 +5,6 @@ import "./PriceCards.css";
 import "./Index.css"
 import LessonsSection from "../components/sections/reasons/LessonsSection";
 import Policy from "../components/sections/fourCard/Policy";
-import hands6 from "/src/assets/hands6.jpg";
 
 export default function Pricing() {
 
@@ -14,7 +13,7 @@ export default function Pricing() {
     <main>
       {/* HERO */}
       <Hero
-        image={hands6}
+        image="/images/hands6.jpg"
         title="Lesson rates"
         text="I believe that high-quality, personalized tutoring shouldn’t be a luxury. Every child deserves the chance to develop their skills and confidence through consistent, encouraging lessons.
             To make this possible, I’ve kept my pricing as affordable as I can. Your commitment to regular sessions helps me maintain this low-cost structure while continuing to provide exceptional results."

@@ -1,7 +1,5 @@
 import "./Articles.css";
 import Header from "./header/Header";
-import art9 from "../../assets/art9.png";
-import art10 from "../../assets/art10.jpg";
 
 export default function Article11() {
 
@@ -61,7 +59,7 @@ export default function Article11() {
                     You might hear musicians say a song is in the "Key of C Major" or the "Key of A Minor." This is called Tonality, and it's actually quite simple. The "Key" is named after the Captain (The Tonic). If the first note of a Major scale is C, the song is in C Major. If the first note of a Minor scale is A, it's in A Minor. The name of the key tells you where the song is going to end. For example, if you listen to Beethoven's Sixth Symphony in F Major, you can bet your bottom dollar that the very last sound you hear will be a solid, happy F Major chord. It's like the title of a book telling you exactly where the story will lead you back to!
                 </p>
 
-                <img src={art9} className="article-img-slim"/>
+                <img src="/images/art9.png" className="article-img-slim"/>
 
                 <h2>Mode vs. Key</h2>
                 <p>

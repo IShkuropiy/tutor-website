@@ -1,7 +1,6 @@
 import React from "react";
 import "./Articles.css";
 import Header from "./header/Header";
-import royal2 from "../../assets/royal2.jpg";
 
 export default function Article9() {
     return (
@@ -14,7 +13,7 @@ export default function Article9() {
             />
             <section className="article-content">
 
-                <img src={royal2} className="article-img" />
+                <img src="/images/royal2.jpg" className="article-img" />
 
                 <p>To be a pianist is more than simply pressing keys — it is a privilege, a discipline, and a journey of personal growth. Every time you sit at the instrument, you are not only making music, you are also developing qualities that will serve you far beyond the piano bench.</p>
 
