@@ -1,6 +1,5 @@
 import "./Articles.css";
 import Header from "./header/Header";
-import keys13 from "../../assets/keys13.jpg";
 
 export default function Article15() {
     return (
@@ -15,7 +14,7 @@ export default function Article15() {
             
             <section className="article-content">
 
-                <img className="article-img" src={keys13} />
+                <img className="article-img" src="/images/keys13" />
 
                 <p>
                     In the 17th and 18th centuries, the musical world was dominated by the <strong> Mechanistic School of pedagogy</strong>. Its goal was simple but grueling: to develop absolute finger independence and strength while keeping the wrists, elbows, and shoulders completely frozen. To master this "statue-like" posture, musicians would practice for 8 to 10 hours a day. This rigid approach often led to chronic pain and professional injuries.

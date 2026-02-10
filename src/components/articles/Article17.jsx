@@ -1,7 +1,6 @@
 import "./Articles.css";
 import Header from "./header/Header";
 import FooterBtn from "../sections/footer-btn/FooterBtn";
-import marktime from "../../assets/marktime.png";
 
 export default function Article17() {
     return (
@@ -17,7 +16,7 @@ export default function Article17() {
                     Rhythm is the heartbeat of music. Just like a heartbeat, it is marked by a steady, regular pulse called the <strong>beat</strong>. These beats are grouped into patterns called <strong>measures</strong>  (or bars), which are separated by vertical bar lines. The number of beats within these measures is determined by the <strong>meter</strong>. Meter describes how beats are organized and emphasized. While there are many types of meters, they generally fall into three main categories:
                 </p>
 
-                < img src={marktime} className="article-img-slim" />
+                < img src="/images/marktime.png" className="article-img-slim" />
 
 
                 <h3> Duple Meter (2/4 time)</h3>

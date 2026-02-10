@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import self from "/src/assets/self.jpeg";
-import art1 from "/src/assets/art1.jpg";
 import "./Index.css";
 
 export default function About() {
@@ -24,7 +22,7 @@ export default function About() {
                 <div className="about-card">
                     <div className="about-image">
                         <img
-                            src={self}
+                            src="/images/self.jpeg"
                         />
                     </div>
                     <div className="text-box">

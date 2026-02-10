@@ -1,7 +1,6 @@
 import React from "react";
 import "./Articles.css";
 import Header from "./header/Header";
-import keys10 from "../../assets/keys10.jpg";
 
 export default function Article13() {
     return (

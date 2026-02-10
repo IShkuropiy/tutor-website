@@ -1,7 +1,6 @@
 import React from "react";
 import "./Articles.css";
 import Header from "./header/Header";
-import royal5 from "../../assets/royal5.png";
 
 export default function Article14() {
     return (
@@ -19,7 +18,7 @@ export default function Article14() {
                     We touch the keys with the soft pad of the finger, not the fingernail. Think of the pad as a sensitive "ear" that listens to the key. By using the fingertip, we keep our sense of touch sharp, which is the most important secret to making the piano "sing."
                     When you feel the springy resistance of the key, don't attack it. Avoid pushing, poking, or stabbing. Instead, lean into the key smoothly, as if you are merging with it.
                 </p>
-                <img className="article-img" src={royal5} />
+                <img className="article-img" src="/images/royal5.png" />
 
 
                 <h3>The Power of the Thumb and Pinky</h3>

@@ -2,15 +2,6 @@ import React from "react";
 import "./Articles.css";
 import Header from "./header/Header";
 import FooterBtn from "../sections/footer-btn/FooterBtn";
-import markarticulation from "../../assets/markarticulation.WEBP";
-import marktenuto from "../../assets/marktenuto.WEBP";
-import markstaccato from "../../assets/markstaccato.WEBP";
-import markstaccatissimo from "../../assets/markstaccatissimo.WEBP";
-import markaccents from "../../assets/markaccents.WEBP";
-import markmarcato from "../../assets/markmarcato.WEBP";
-import markfermata from "../../assets/markfermata.WEBP";
-import marksfz from "../../assets/marksfz.WEBP";
-
 
 export default function Article10() {
 
@@ -23,7 +14,7 @@ export default function Article10() {
             />
 
             <section className="article-content">
-                <img src={markarticulation} className="article-img-slim" />
+                <img src="/images/markarticulation.WEBP" className="article-img-slim" />
                 <p>Just like talking has rules for how we say words—whether we speak short and snappy or long and smooth—music has rules too! In music, these rules are called <strong>articulation</strong>. Articulation tells us exactly how to play a note, a chord, or a group of notes. You could play the exact same melody four times, but by using different articulation, you can make it sound like four totally different pieces of music!</p>
 
                 <h2>The Most Common Articulation Marks
@@ -35,7 +26,7 @@ export default function Article10() {
                     <li><strong>Non Legato: </strong>This is the default, un-marked articulation. The key is held almost whole length ( approximately 3/4 of the note's value) and then release it, creating a slight, natural separation between the notes without being noticeably short or detached. It is the articulation of a natural, gravity-based stroke.</li>
                     <li><strong>Staccato: </strong>This means the note should be played short, detached, and separated. Play the note briefly and lightly. Think of a bouncing ball—it touches the ground quickly and jumps up, separated from the next bounce. The sound should be short and separated from the next note.</li>
                 </ul>
-                <img src={markstaccato} className="article-img-slim" />
+                <img src="/images/markstaccato.WEBP" className="article-img-slim" />
 
                 <p>There are many other different ways to tell a musician how to play a note. The most common musical "directions" you'll see are:</p>
                 <ul className="tips">
@@ -53,13 +44,13 @@ export default function Article10() {
 
                 <h3>Staccatissimo (The Super-Bounce)</h3>
                 <p>This is like a very strong Staccato. Play the note extra-short and with a bit more force, separating it as much as possible from the notes that follow.</p>
-                <img src={markstaccatissimo} className="article-img-slim" />
+                <img src="/images/markstaccatissimo.WEBP" className="article-img-slim" />
 
                 <h3>Tenuto (Hold It!)</h3>
                 <p>The Italian word Tenuto means "hold" or "sustained". When you see this, you must hold the note for its full, entire value.</p>
                 <h5>Important Note: </h5>
                 <p>Tenuto is different from a Slur. You hold the note fully, but you don't necessarily have to connect it smoothly to the next note.</p>
-                <img src={marktenuto} className="article-img-slim" />
+                <img src="/images/marktenuto.WEBP" className="article-img-slim" />
 
                 <h3>Slur (The Smooth Ride)</h3>
                 <p> Play the notes smoothly and connectedly (called Legato). Think of it like a smooth roller coaster without any bumps or breaks. The goal is to make the group of notes sound like one flowing phrase.</p>
@@ -67,22 +58,22 @@ export default function Article10() {
 
                 <h3> Accent (The Loud Voice)</h3>
                 <p>Play the note louder or with a stronger attack than the notes around it. It's like putting a little emphasis on that one word when you're talking.</p>
-                <img src={markaccents} className="article-img-slim" />
+                <img src="/images/markaccents.WEBP" className="article-img-slim" />
 
                 <h3>Marcato (The Mighty Hammer)</h3>
                 <p>This is like a super-strong Accent. Play the note very forcefully and prominently. It's often combined with a bit of separation, giving it a powerful, decisive sound.</p>
-                <img src={markmarcato} className="article-img-slim" />
+                <img src="/images/markmarkato.WEBP" className="article-img-slim" />
 
                 <h3>Fermata (Rhythmic Pause)</h3>
                 <p>The fermata articulation mark has a profound effect on the interpretation and overall rhythm of a musical piece, as it temporarily alters the flow of time. Often referred to by musicians as a "hold" or "pause," this sign indicates that a particular note, rest, or chord should be sustained for a duration longer than its standard written value. Depending on the composer and the performer's discretion, the fermata can create a barely perceptible rhythmic difference or, conversely, can hold notes for an extended, expressive period. The beauty of the fermata lies in its ability to suspend the established rhythm, creating a moment of lingering tension, a breathless pause that anticipates the end of a phrase, a cadence, or the beginning of the next section.</p>
-                <img src={markfermata} className="article-img-slim" />
+                <img src="/images/markfermata.WEBP" className="article-img-slim" />
 
                 <h3>Portamento</h3>
                 <p>Portamento is a unique performance instruction, often translated as "to carry" or "to glide," which indicates a continuous, unbroken glide in pitch from one note to the next. This glide is achieved by passing through all the intervening pitches, distinguishing it from a standard, discrete shift in notes. The expressive effect of a portamento depends heavily on the performer's intention, as a long, drawn-out glide can sound much more unusual and intense than a subtle, short one.</p>
 
                 <h3>Sforzando</h3>
                 <p>The sforzando dynamic mark is easily recognizable by its abbreviation "Sfz." It is one of the most dramatic and instantly recognizable dynamic accents, instructing the performer to play a note with a sudden, forceful accent. While the term literally means "forced," its performance can vary. Classically, it is interpreted as a very loud attack (forte) followed immediately by a rapid reduction in volume (subito piano). Think of the effect as a sudden explosion of sound, designed to create a moment of intense shock or interest that instantly grabs the listener's attention.</p>
-                <img src={marksfz} className="article-img-slim" />
+                <img src="/images/marksfz.WEBP" className="article-img-slim" />
 
                 <p className="quote">The simplest way to understand articulation and dynamic marks in music is as the expressive toolkit for the performer. The beauty of musical articulation is that it gives us multiple ways to alter the written score—modifying a note's dynamic level, its duration, its attack, or its timbre—thereby allowing the musician to truly express themselves through playing.</p>
 

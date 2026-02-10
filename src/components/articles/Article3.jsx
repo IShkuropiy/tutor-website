@@ -1,8 +1,6 @@
 import React from "react";
 import Header from "./header/Header";
 import "./Articles.css";
-import hands20 from "../../assets/hands20.jpg";
-import hands11 from "../../assets/hands11.jpg";
 
 export default function Article3() {
     return (
@@ -22,7 +20,7 @@ export default function Article3() {
                 </p>
                 <h3>Stimulating Brain Activity</h3>
                 <p>Music activates several areas of the brain simultaneously—those responsible for movement, hearing, vision, and emotion. This full-brain engagement promotes neuroplasticity, the brain's ability to form and strengthen new connections. Such stimulation helps preserve mental agility and may even delay age-related cognitive decline.</p>
-                <img src={hands20} className="article-img" />
+              
                 <h3>Expressing Emotions</h3>
                 <p>Music is often described as the language of emotion. Playing the piano provides a safe and meaningful way to express feelings that may be difficult to articulate in words. It helps release tension, restore emotional balance, and elevate mood.</p>
                 <h3>Boosting Self-Esteem</h3>
@@ -31,8 +29,6 @@ export default function Article3() {
                 <p>Music naturally brings people together. Joining an ensemble, attending concerts, or participating in community music events helps broaden your social connections and introduces you to like-minded individuals. For many adults, this sense of belonging provides meaningful companionship and an effective way to overcome social isolation.</p>
                 <h3>Developing Creativity</h3>
                 <p>The piano encourages exploration and self-expression through improvisation, interpretation, and even composition. These creative activities spark imagination and strengthen innovative thinking—skills that enhance not only your musical growth but also your approach to problem-solving in everyday life.</p>
-
-                <img src={hands11} className="article-img" />
 
                 <p><strong>Learning to play the piano as an adult or child is not only about music</strong> — it is about developing a healthier, more focused, and creative mind. Whether for relaxation, emotional expression, or intellectual growth, piano study offers lasting psychological benefits that extend far beyond the instrument itself.</p>
 

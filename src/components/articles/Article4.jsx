@@ -1,13 +1,6 @@
 import React from "react";
 import "./Articles.css";
 import Header from "./header/Header";
-import brain1 from "../../assets/brain1.jpeg";
-import b3 from "../../assets/b3.png";
-import b9 from "../../assets/b9.jpg";
-import b10 from "../../assets/b10.jpeg";
-import hands2 from "../../assets/hands2.png";
-import hands28 from "../../assets/hands28.jpg";
-import royal8 from "../../assets/royal8.jpg";
 
 export default function Article4() {
     return (
@@ -30,7 +23,7 @@ export default function Article4() {
                 <h3>Analyze the Piece</h3>
                 <p>Spend time early in the process analyzing the music. Examine the form, structure, melody, harmony, dynamics, and rhythm. Look at how the musical lines interact and analyze the main themes, chord progressions, and tonal centers. Divide the piece into sections and phrases, noting where there is repetition or contrast in the overall architecture.</p>
 
-                <img className="article-img" src={b9} />
+                <img className="article-img" src="/images/b9.jpg" />
 
                 <p>
                     Identify the passages that are particularly challenging for you and give them extra attention. Never hesitate to ask your tutor for help if you have questions or need a concept explained.
@@ -40,7 +33,7 @@ export default function Article4() {
                 <p>Listen to recordings while following along with the score. If possible, listen to several different pianists. Watch their hand positioning and fingering closely, and listen to how they interpret specific sections. Don't worry about "copying" or imitating someone else's style—you are learning, and it is helpful to see a variety of interpretations. Eventually, you will develop your own unique style and way of performing the piece.
                 </p>
 
-                <img className="article-img-cntr" src={royal8} />
+                <img className="article-img-cntr" src="/images/royal8.jpg" />
 
                 <p>
                     I believe it is always beneficial to listen to as many performances as possible. Analyze them, compare how different pianists handle various sections, and try out interesting techniques yourself. You can always learn something useful by keeping an open mind.
@@ -51,7 +44,7 @@ export default function Article4() {
                     I like to view a musical piece as a tapestry—a rich textile art made by weaving intricate designs into fabric. Just as threads combine to form a layered composition, music uses melodic, rhythmic, and harmonic "threads" to create a whole.
                 </p>
 
-                <img className="article-img-slim" src={b10} />
+                <img className="article-img-slim" src="/images/b10.jpeg" />
 
                 <p>
                     Just as you find repeating designs, tessellations, or motifs in a carpet, a musical work consists of sequences, variations, and modulations. Music is built on patterns; once you start noticing them, the piece becomes much easier to navigate. I recommend finding all the identical or similar passages, marking them, and learning those patterns first.
@@ -62,7 +55,7 @@ export default function Article4() {
                     When you start a new piece, the initial excitement often makes you want to rush through to the end. However, I have to offer a piece of advice that might seem tedious: do not rush. In our craft, haste is the enemy of progress.
                 </p>
 
-                <img className="article-img" src={hands28} />
+                <img className="article-img" src="/images/hands28.jpg" />
                 <p>
                     Resist the urge to play through the entire piece repeatedly. Instead, break the music down into its smallest components. Focus on mastering one tiny "unit" at a time—a single measure or even a specific interval—and only once that unit feels effortless should you move to the next level. By building the piece block by block, you ensure that the foundation is solid before you attempt to assemble the whole structure.
                 </p>
@@ -79,7 +72,7 @@ export default function Article4() {
                     Don’t rely solely on "finger" memory, which can easily fail under pressure. Instead, diversify your mental approach. Speak the notes aloud, tap the rhythm, practice silent fingering, and count with precision. By activating these different memory channels—auditory, motor, visual, and analytical—you create durable neural connections that reinforce your learning and provide a safety net during performance.
                 </p>
 
-                  <img className="article-img-slim" src={brain1} />
+                  <img className="article-img-slim" src="/images/brain1.jpeg" />
 
                 <h3>Master the Transitions </h3>
                 <p>
@@ -87,7 +80,7 @@ export default function Article4() {
                     Don't just practice the comfortable parts; lean into the awkward shifts and uncomfortable hand positions. By treating a transition as its own independent unit of study, you bridge the gaps in your muscle memory and ensure the piece flows as a continuous, seamless whole.
                 </p>
 
-                <img className="article-img-slim" src={b3} />
+                <img className="article-img-slim" src="/images/b3.png" />
 
                 <p className="quote">
                     By combining slow practice, multisensory reinforcement, and clear musical intent, you ensure consistency in both technical precision and artistic expression. The result is meaningful performance in any context—whether or not inspiration happens to strike.

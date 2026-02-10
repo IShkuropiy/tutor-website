@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "./header/Header";
 import "./Articles.css";
-import keys8 from "../../assets/keys8.jpg";
 
 export default function Article1() {
   return (

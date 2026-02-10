@@ -2,8 +2,6 @@ import React from "react";
 import Youtube from 'react-lite-youtube-embed';
 import './Articles.css'
 import Header from "./header/Header";
-import circus from "../../assets/circus.png";
-import turina from "../../assets/turina.png";
 
 export default function Turina() {
     return (
@@ -31,13 +29,13 @@ export default function Turina() {
                 </div>
                 <p>Joaquín Turina wrote his children’s piano cycle in 1931. It consists of six miniature pieces, each one portraying a different circus act. As in much of his music, Turina infuses these pieces with unmistakable Spanish colors, and the spirit and folklore of his native Andalusia. His writing is vivid, richly detailed, and instantly recognizable; it stands apart from that of any other composer of his time.</p>
 
-                <img src={circus} className="article-image" />
+                <img src="/images/circus.png" className="article-image" />
 
                 <p>The first piece of the cycle opens with bright fanfares that immediately draw the audience’s attention to the stage and prepare them for a series of wonderful performances: jugglers, trapeze artists, trained poodles, and strongmen.
                     Musically, throughout the contrasting miniatures, you can hear airy, flowing passages that suggest the flight of acrobats swinging high above the audience. Sparkling glissandi, a playful dotted rhythm, and quick octave leaps bring to life two clowns teasing and joking with one another. Light, nimble “paws” of the trained dogs appear in the high register.</p>
                 <p>Turina created powerful, imaginative miniatures in which you can hear enthusiastic applause, the lively bustle of the circus, and the soft glow of a child’s imagination. The cycle becomes a miniature musical theater, where each piece tells its own small story and invites the listener into a colorful world conjured solely by two hands at the piano.</p>
 
-                <img src={turina} className="article-image" />
+                <img src="/images/turina.png" className="article-image" />
             </section>
         </main>
     );

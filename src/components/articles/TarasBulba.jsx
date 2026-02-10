@@ -1,7 +1,6 @@
 import React from "react";
 import './Articles.css'
 import Header from "./header/Header";
-import taras from "../../assets/taras.png";
 
 export default function TarasBulba() {
     return (
@@ -44,8 +43,6 @@ export default function TarasBulba() {
                     the love for one’s homeland vs. the love for another person,
                     a father’s feelings vs. loyalty to the country,
                     and the struggle between calm, peaceful moments and the storm of battle,  and, above all, the fierce battle you wage for freedom. </p>
-
-                <img src={taras} className="article-image" />
 
             </section>
         </main>
