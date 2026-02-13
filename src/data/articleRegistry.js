@@ -21,6 +21,7 @@ export const articleMap = {
     "article17": lazy(() => import('../components/articles/Article17')),
     "article18": lazy(() => import('../components/articles/Article18')),
     "article19": lazy(() => import('../components/articles/Article19')),
+    "article20": lazy(() => import('../components/articles/Article20')),
     "rimskiy": lazy(() => import('../components/articles/Rimskiy')),
     "grieg": lazy(() => import('../components/articles/Grieg')),
     "erlkönig": lazy(() => import('../components/articles/Erlkönig')),
