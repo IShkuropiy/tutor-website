@@ -11,9 +11,8 @@ export default function Article19() {
             />
 
             <section className="article-content">
-                <p>A standard piano keyboard has 88 keys. But in music, we only use 12 different notes before they start repeating again. And there are only seven letter names for notes:</p>
-                <p>A, B, C, D, E, F, G</p>
-                <p>After G, the pattern starts again at A.</p>
+                <p>A standard piano keyboard has 88 keys. But in music, we only use 12 different notes before they start repeating again. And there are only seven letter names for notes: <strong> A, B, C, D, E, F, G </strong>. After G, the pattern starts again at A.</p>
+       
                 <p>
                     In many European countries, these same notes also have different names used for singing: Do, Re, Mi, Fa, Sol (or So), La, Ti (or Si)
                 </p>
@@ -33,6 +32,7 @@ export default function Article19() {
                         href="https://en.wikipedia.org/wiki/Solf%C3%A8ge"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="text-link"
                     > solfège
                     </a>. It helps singers learn melodies and recognise how notes move up and down. The syllables (Do, Re, Mi, etc.) come from a medieval Latin hymn written in the 11th century by a monk named Guido of Arezzo. Each line of the hymn began on a slightly higher note. The first syllables of each line became the note names:
                     <ul>
@@ -48,6 +48,9 @@ export default function Article19() {
                     </p>
                     <p>It may be translated: <span className="italic">So that they may, with loosened voices, resound the wonders of your deeds, clean the guilt from our stained lips, O Saint John.</span></p>
                 </p>
+
+                <img src="/images/art2.gif" className="article-image" />
+                
                 <h2>What Is an Octave?</h2>
                 <p>
                     If there are 88 keys, why do we have only seven letter names for them? As I mentioned before, it's because the musical alphabet repeats over and over—seven times (with an extra A, B, and C at the top)—which means we have at least seven full octaves.
@@ -56,6 +59,8 @@ export default function Article19() {
                     An <strong>octave</strong> is the distance from one note to the next note with the same name. For example, from C up to the next C, or from A up to the next A.
                 </p>
                 <p>On a piano, an octave would look like this:</p>
+                <img src="/images/markoctaves.jpg" className="article-image" />
+
                 <p>
                     Let's look at the three most-used octave registers that make up the center of the keyboard: Octave 3, Octave 4, and Octave 5.
                 </p>
@@ -71,6 +76,8 @@ export default function Article19() {
                 <p>
                     On a standard 88-key piano the lowest note is A0 and the highest note is C8. The lowest C on the piano is C1 The highest C is C8. Each time you move from one C to the next C, you move up one octave.
                 </p>
+
+                <img src="/images/octaveidentification.jpg" className="article-image" />
                 <p>
                     Your main goal right now is to become friends with your piano! Focus on spotting the patterns of the black and white keys and exploring every register with purpose. Don't be shy—play your way from the deepest, rumbling bass to the highest, tinkling treble. Listen closely to how the sound changes as you travel!
 
