@@ -12,7 +12,7 @@ export default function Blog() {
       title: "Music Theory",
       items: [
         { id: "t1", img: "/images/art12.avif", eyebrow: "Music Theory", title: "From Bumps to Beats: Understanding Sound and Music", href: "/blog/article16" },
-        { id: "t2", img: "/images/art12.avif", eyebrow: "Music Theory", title: "Mapping the Keys: A Guide to Registers and Octaves", href: "/blog/article20" },
+        { id: "t2", img: "/images/markoctave.png", eyebrow: "Music Theory", title: "Mapping the Keys: A Guide to Registers and Octaves", href: "/blog/article20" },
         { id: "t3", img: "/images/markvalues.jpeg", eyebrow: "Music Theory", title: "How to Read Music", href: "/blog/article18" },
         { id: "t4", img: "/images/marktime.png", eyebrow: "Music Theory", title: "Rhythm: The Heartbeat of Music", href: "/blog/article17" },
         { id: "t5", img: "/images/art8.png", eyebrow: "Music Theory", title: " Musical Intervals: An Introduction", href: "/blog/article12" },
